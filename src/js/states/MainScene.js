@@ -14,6 +14,11 @@ BasicGame.MainScene.prototype = {
     // SCALING
     let scaler = this.scale.userScaler;
     this.game.world.setBounds(0, 0, BasicGame.realWidth, BasicGame.realHeight);
+    
+    // BACKGROUND
+    let background = this.add.image(0, 0, 'background' );
+    background.anchor.set(0);
+    scaler.scaleBgSprite(background);
 
     // MAIN SPRITE
     let image = "phaser-logo";

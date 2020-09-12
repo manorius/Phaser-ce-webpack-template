@@ -11,6 +11,7 @@ BasicGame.Preloader.prototype = {
     this.load.onLoadComplete.add(this.loadComplete, this);
 
     this.load.image('phaser-logo', '../assets/images/phaser-logo.png' + '?v=' + version);
+    this.load.image('background', '../assets/images/background.jpg' + '?v=' + version);
   },
 
   create: function () {

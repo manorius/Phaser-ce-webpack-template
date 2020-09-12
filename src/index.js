@@ -2,6 +2,7 @@ import "./js/states/Base"
 import "./js/states/Boot"
 import "./js/states/Preloader"
 import "./js/states/MainScene"
+import "./js/states/CheckOrientation"
 import "../assets/css/style.css"
 
 var realWidth, realHeight;

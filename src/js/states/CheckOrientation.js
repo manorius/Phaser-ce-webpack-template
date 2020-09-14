@@ -1,10 +1,8 @@
-BasicGame.CheckOrientation = function(game) {
-
-};
+BasicGame.CheckOrientation = function(game) {};
 
 BasicGame.CheckOrientation.prototype = {
 
-  create: function() {},
+  create: function() {console.log(BasicGame)},
 
   update: function() {
     if (BasicGame.orientated) {

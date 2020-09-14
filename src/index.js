@@ -1,5 +1,6 @@
 import "./js/states/Base"
 import "./js/states/Boot"
+import "./js/states/CheckOrientation";
 import "./js/states/Preloader"
 import "./js/states/MainScene"
 import "./js/states/CheckOrientation"
@@ -27,6 +28,7 @@ var game;
 
   // Add states
   game.state.add('Boot', BasicGame.Boot);
+  game.state.add('CheckOrientation', BasicGame.CheckOrientation);
   game.state.add('Preloader', BasicGame.Preloader);
   game.state.add('MainScene', BasicGame.MainScene);
 
